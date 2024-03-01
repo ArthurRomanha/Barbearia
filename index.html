@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <meta charset="UTF-8">
     <head>
+        <meta charset="UTF-8">
         <h1>Sobre a Barbearia Alura</h1>
     </head>
     <body>
@@ -19,15 +19,25 @@
     </ul>
 
         <a src="www.alura.com.br">Alura</a>
-        <button onclick="funcaoBotao()" class="botao" id="botao">Clique aqui!</button>
+        <button onclick="funcaoBotao()" id="botao">Clique aqui!</button>
         <script>
             function funcaoBotao(){
                 alert("Você é fedorento!");
             }
         </script>
         <style>
-            .botao{
-                background-color: rgb(255, 238, 0);
+            #botao{
+                background-color: rgba(27, 203, 209, 0.5);
+                color: white;
+                transition: background-color 0.15s;
+                transition: color 0.15s;
+                cursor:pointer;
+                border: none;
+                border-radius: 7px;
+            }
+            #botao:hover{
+                background-color: white;
+                color: rgba(27, 203, 209, 0.5);
             }
         </style>
     </body>
