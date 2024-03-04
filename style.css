@@ -1,0 +1,36 @@
+body {
+	background-color: rgb(117, 96, 192);
+}
+
+p {
+	text-align: center;
+}
+
+em strong {
+	color: rgb(60, 19, 209);
+}
+#tituloSecao{
+	font-size: 20px;
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+#botao{
+	background-color: white;
+	color: rgb(0, 162, 255);
+	cursor:pointer;
+	border: 1px solid rgb(0, 162, 255);
+	border-radius: 5px; 
+
+	transition: opacity 0.15;
+	transition: background-color 0.15s;
+	transition: color 0.15s;
+}
+#botao:hover{
+	background-color: rgb(0, 162, 255);
+	color: white;
+}
+#botao:active{
+	opacity: 0.7;
+}
