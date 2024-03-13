@@ -1,11 +1,12 @@
-body {
+body {	
 	background-color: rgb(117, 96, 192);
 }
-
+#banner{
+	width: 100%;
+}
 p {
 	text-align: center;
 }
-
 em strong {
 	color: rgb(60, 19, 209);
 }
@@ -15,6 +16,11 @@ em strong {
 }
 p{
 	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+.lista{
+	font-weight: bold;
 }
 #botao{
 	background-color: white;
