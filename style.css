@@ -1,26 +1,26 @@
+*{
+	font-family: Verdana;
+	font-size: 20px;
+}
 body {	
-	background-color: rgb(117, 96, 192);
+	background-color: #ffffff;
+	
 }
 #banner{
 	width: 100%;
 }
-p {
+p{
 	text-align: center;
 }
 em strong {
 	color: rgb(60, 19, 209);
 }
 #tituloSecao{
-	font-size: 20px;
 	text-align: center;
 }
-p{
-	text-align: center;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 20px;
-}
-.lista{
-	font-weight: bold;
+#beneficios{
+	margin-left: 40%;
+	
 }
 #botao{
 	background-color: white;
