@@ -1,6 +1,11 @@
-*{
+p, h2, h3{
+	text-align: center;
 	font-family: Verdana;
 	font-size: 20px;
+}
+h1{
+	margin-left: 20px;
+	font-size: 30px;
 }
 body {	
 	background-color: #ffffff;
@@ -9,18 +14,44 @@ body {
 #banner{
 	width: 100%;
 }
+#principal{
+	padding: 30px;
+	background-color: #cccccc;
+}
+
 p{
 	text-align: center;
 }
 em strong {
 	color: rgb(60, 19, 209);
 }
-#tituloSecao{
-	text-align: center;
-}
-#beneficios{
-	margin-left: 40%;
+.lista{
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+	padding: 20px;
+	margin-right: 20%;
 	
+}
+#imgBeneficios{
+	width: 50%;
+}
+@keyframes btnRgb{
+	0%{
+		background-color: red;
+	}
+	50%{
+		background-color: green;
+	}
+	100%{
+		background-color: blue;
+	}
+}
+#btnRgb{
+	cursor:pointer;
+	border-radius: 5px; 
+
+	animation: btnRgb 1s infinite;
 }
 #botao{
 	background-color: white;
