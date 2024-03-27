@@ -33,10 +33,17 @@
             <img src="beneficios.jpg" id="imgBeneficios">
         </div>
         <button onclick="funcaoBotao()" id="botao">Clique aqui!</button>
-        <button id="btnRgb">Rgb</button>
+        <button onclick="btnRgb()" id="btnRgb">Rgb</button>
+        <div id="text-show">
+
+        </div>
         <script>
+            var div = document.getElementById("text-show");
             function funcaoBotao(){
                 alert("Você é fedorento!");
+            }
+            function btnRgb(){
+                div.textContent = `Se a vida te der maçãs, faça uma torta!`
             }
         </script>
         </div>
