@@ -27,3 +27,46 @@ nav a:hover{
     text-decoration: underline;
     color:rgb(255, 68, 0);
 }
+nav a:active{
+    opacity: 0.7;
+}
+#produtos{
+    width: 940px;
+    margin:0 auto;
+    padding: 50px 0;
+}
+#produtos li{
+    display: inline-block;
+    width: 30%;
+    border: solid 3px black;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: top;
+    margin:0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+#produtos li:hover{
+    border-color: rgb(250, 225, 0);
+}
+#produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.produto-descricao{
+    font-size: 18px;
+}
+.preco{
+    font-size: 25px;
+    font-weight:bold;
+    margin-top: 10px;
+}
+footer{
+    background: url("bg.jpg");
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
+#text-copyright{
+    margin-top: 10px 0 0;
+}
