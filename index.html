@@ -3,7 +3,8 @@
     <head>
         <meta charset="UTF-8">
 		<title>Barbas do Grau</title>
-        
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style-basico.css">
 		<link rel="stylesheet" href="style-home.css">
     </head>
     <body>
@@ -41,20 +42,9 @@
             </ul>
             <img src="beneficios.jpg" id="imgBeneficios">
         </div>
-        <button onclick="funcaoBotao()" id="botao">Clique aqui!</button>
-        <button onclick="btnRgb()" id="btnRgb">Rgb</button>
-        <div id="text-show">
-
-        </div>
-        <script>
-            var div = document.getElementById("text-show");
-            function funcaoBotao(){
-                alert("Você é fedorento!");
-            }
-            function btnRgb(){
-                div.textContent = `Se a vida te der maçãs, faça uma torta!`
-            }
-        </script>
-        </div>
+        <footer>
+            <img src="logo-branco.png">
+            <p id="text-copyright">&copy;Copyright Barbearia Alura - 2019</p>
+        </footer>
     </body>
 </html>
