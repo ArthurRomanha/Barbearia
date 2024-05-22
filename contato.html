@@ -6,6 +6,7 @@
     <title>Contato</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style-basico.css">
+    <link rel="stylesheet" href="contatos.css">
 </head>
 <body>
     <header>
@@ -26,19 +27,31 @@
     <main>
         <form>
             <label for="nome">Nome e sobrenome:</label>
-            <input type="text" id="nome" placeholder="Escreva aqui...">
+            <input type="text" id="nome" placeholder="Escreva aqui..." required>
 
             <label for="email">Email:</label>
-            <input type="email" id="email" placeholder="email@gmail.com">
+            <input type="email" id="email" placeholder="email@gmail.com" required>
             
             <label for="telefone">Telefone:</label>
-            <input type="text" id="telefone" placeholder="(XX)XXXXX-XXXX">
+            <input type="text" id="telefone" placeholder="(XX)XXXXX-XXXX" required>
 
             <label for="textarea">Comentário:</label>
-            <textarea cols="70" rows="10" id="textarea" placeholder="Deixe algum comentário aqui!"></textarea>
+            <textarea cols="70" rows="10" id="textarea" placeholder="Deixe algum comentário aqui!" required></textarea>
 
-            <label for="radio-email">Email:</label>
-            <input type="radio" value="email">
+            <label for="" required>Como prefere nosso contato?</label>
+                <label for="radio-email" class="radios" class="label-radios">Email</label>
+                <input type="radio" value="email" id="radio-email" class="radios">
+
+                <label for="radio-ligacao" class="radios" class="label-radios">Ligação</label>
+                <input type="radio" value="radio-ligacao" id="radio-ligacao" class="radios">
+
+                <label for="radio-zapzap" class="radios" class="label-radios">WhatsApp</label>
+                <input type="radio" value="zapzap" id="radio-zapzap" class="radios">
+
+                <br>
+
+                <input type="checkbox" class="radios">
+                <label class="radios">Gostaria de receber novidades por email: </label>
         
             <input type="submit" value="Enviar">
         </form>
