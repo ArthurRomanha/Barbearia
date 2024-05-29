@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,22 +9,23 @@
     <link rel="stylesheet" href="style-basico.css">
     <link rel="stylesheet" href="contatos.css">
 </head>
+
 <body>
     <header>
         <div class="caixa">
             <img src="logo.png">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="produtos.html">Produtos</a></li>
-                        <li><a href="contato.html">Contato</a></li>
-                    </ul>
-                </nav>
-        </div>    
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
 
-    
+
     <main>
         <form>
             <label for="nome">Nome e sobrenome:</label>
@@ -31,28 +33,30 @@
 
             <label for="email">Email:</label>
             <input type="email" id="email" placeholder="email@gmail.com" required>
-            
+
             <label for="telefone">Telefone:</label>
             <input type="text" id="telefone" placeholder="(XX)XXXXX-XXXX" required>
 
             <label for="textarea">Comentário:</label>
             <textarea cols="70" rows="10" id="textarea" placeholder="Deixe algum comentário aqui!" required></textarea>
 
-            <label for="" required>Como prefere nosso contato?</label>
+            <div class="estilo-fim-formulario">
+                <p>Como prefere nosso contato?</p>
                 <label for="radio-email" class="radios" class="label-radios">Email</label>
-                <input type="radio" value="email" id="radio-email" class="radios">
+                <input type="radio" name="radio" value="email" id="radio-email" class="radios" class="input-radio">
 
                 <label for="radio-ligacao" class="radios" class="label-radios">Ligação</label>
-                <input type="radio" value="radio-ligacao" id="radio-ligacao" class="radios">
+                <input type="radio" name="radio" value="radio-ligacao" id="radio-ligacao" class="radios" class="input-radio">
 
                 <label for="radio-zapzap" class="radios" class="label-radios">WhatsApp</label>
-                <input type="radio" value="zapzap" id="radio-zapzap" class="radios">
+                <input type="radio" name="radio" value="zapzap" id="radio-zapzap" class="radios" class="input-radio">
 
                 <br>
 
                 <input type="checkbox" class="radios">
                 <label class="radios">Gostaria de receber novidades por email: </label>
-        
+            </div>
+
             <input type="submit" value="Enviar">
         </form>
     </main>
@@ -64,4 +68,5 @@
         <p id="text-copyright">&copy;Copyright Barbearia Alura - 2019</p>
     </footer>
 </body>
+
 </html>

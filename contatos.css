@@ -11,3 +11,10 @@ input, textarea{
     margin: 0;
     display: inline;
 }
+.input-radios{
+    margin-right: 10px;
+}
+.estilo-fim-formulario{
+    margin-left: 5%;
+    line-height: 1.5;
+}
