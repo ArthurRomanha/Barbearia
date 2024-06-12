@@ -19,5 +19,5 @@ input, textarea{
     line-height: 1.5;
 }
 #btnEnviar:hover{
-    opacity: 0.7;
+    color: green;
 }
